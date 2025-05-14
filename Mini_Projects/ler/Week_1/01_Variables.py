@@ -15,3 +15,7 @@ print(type(cgpa_12_grade))
 Height_feets = 4.2 # He was shortest guy in his whole school
 print("Height of Writter = ",Height_feets)
 print(type(Height_feets))
+
+is_freddy_dumb = True
+print(is_freddy_dumb)
+print(type(is_freddy_dumb))
