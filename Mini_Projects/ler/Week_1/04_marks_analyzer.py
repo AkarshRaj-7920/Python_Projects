@@ -5,6 +5,8 @@ English, II language, Mathematics, Science, Social Studies
 '''
 # Total marks of each subject
 
+print ("Marks Analyzer")
+
 _eng_ = 100
 _2lang_ = 100
 _math_ = 80
