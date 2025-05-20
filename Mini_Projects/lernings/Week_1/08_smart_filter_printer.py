@@ -21,6 +21,3 @@ for i in range (101):
             your not getting the reward, now get out my face.''')
         break
     print (i)
-    
-
-
