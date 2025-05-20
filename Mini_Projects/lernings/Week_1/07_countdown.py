@@ -24,3 +24,4 @@ print ("BOOMMMMM !!!")
 print("""\n A good man said I will repeat:- 
  I have sucessfully privitized world peace.
       Thank You""")
+
