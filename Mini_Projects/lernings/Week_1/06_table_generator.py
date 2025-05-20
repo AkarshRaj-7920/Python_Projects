@@ -10,3 +10,4 @@ for i in range (0, (enter_num2 + 1)):
     print (enter_num1, "X", i,"=", enter_num1*i)
 
 print('''Tip: Learn tables by yourself u will not get this program in school exams''')
+
