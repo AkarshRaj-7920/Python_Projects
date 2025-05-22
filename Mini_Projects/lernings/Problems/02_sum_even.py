@@ -15,4 +15,4 @@ numbers = 0
 for i in range(2, evn_num + 1, 2):
     numbers += i
 
-print("Sum =", numbers)
+print(f"Sum = {numbers}")
