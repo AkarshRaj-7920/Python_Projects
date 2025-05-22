@@ -24,7 +24,7 @@ for i in pass_ent:
     if i.isdigit():
         digi += i
 
-spcel_char = R"!@#$%^&*()_-+=|\"':;?/.,<>`~"
+spcel_char = R"!@#$%^&*()_-+=|\"';?/.,<>`~"
 spcl = ""
 for i in pass_ent:
     if i in spcel_char:
@@ -52,5 +52,5 @@ if len(digi) == 0:
 if len(spcl) == 0:
     print ("Add atleast 1 Special character")
 
-if len(uppr)!=0 and len(lwr)!=0 and len(digi) and len(spcl)!=0:
+if len(uppr)!=0 and len(lwr)!=0 and len(digi)!=0 and len(spcl)!=0:
     print ("Your Password is Good to Go")
