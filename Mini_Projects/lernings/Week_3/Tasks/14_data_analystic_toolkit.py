@@ -56,12 +56,14 @@ for name in name_list:
 # Creating Dictionaries
 #       Dictionary of Names and Scores
 dict_name_score = dict(zip(name_list, score_list))
+
 #       Dictionary of Cities and Names
 dict_city_names = {}
 for names, city in zip(name_list, city_list):
     if city not in dict_city_names:
         dict_city_names[city] = []
     dict_city_names[city].append(names)
+
 #       Dictionary of Scores and Names
 dict_reversed_namescore = dict(zip(score_list, name_list))
 
