@@ -1,4 +1,3 @@
-# 04 Mini Problem
 # Temprature Converter
 
 ''' Input '''
