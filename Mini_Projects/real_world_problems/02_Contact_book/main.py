@@ -1,4 +1,3 @@
-# 05 Mini Problem
 # Contact Book Manager
 
 print(f"{format("| Contact Book Manager |", "-^60")}")
