@@ -189,8 +189,6 @@ while True:
                 # Format (How to Show output after the error occured)
                 print(f"\t\t|{format("Student Information", "-^29")}|")
                 continue
-        
-
 
     elif ask_usr.lower() == 'done':
         print(f"{a}")
