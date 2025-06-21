@@ -39,21 +39,21 @@ while True:
                                     lis_class.append(class_int)
 
                                     while True:
-                                        maths = input(f"  ☼ Maths Marks{format(": ", ">9")}")
+                                        maths = input(f"  ☼ Maths Score{format(": ", ">9")}")
                                         if maths.isdigit():
                                             maths_int = int(maths)
                                             if 0 <= maths_int <= 100:
                                                 lis_maths_marks.append(maths_int)
 
                                                 while True:
-                                                    science = input(f"  ☼ Science Marks{format(": ", ">7")}")
+                                                    science = input(f"  ☼ Science Score{format(": ", ">7")}")
                                                     if science.isdigit():
                                                         science_int = int(science)
                                                         if 0 <= science_int <= 100:
                                                             lis_science_marks.append(science_int)
                                                             
                                                             while True:
-                                                                english = input(f"  ☼ English Marks{format(": ", ">7")}")
+                                                                english = input(f"  ☼ English Score{format(": ", ">7")}")
                                                                 if english.isdigit():
                                                                     english_int = int(english)
                                                                     if 0 <= english_int <= 100:
@@ -64,66 +64,66 @@ while True:
 
                                                                     else:
                                                                         print(f"\n\t\t|{format("Invalid Input", "-^20")}|")
-                                                                        print(f"   -→ [Enter English Marks between 0 to 100]")
-                                                                        print(f"   -→ [Renter English Marks of \'Student {student_no}\'] again...\n")
+                                                                        print(f"   -→ [Enter English Score between 0 to 100]")
+                                                                        print(f"   -→ [Renter English Score of \'Student {student_no}\'] again...\n")
                                                                         # Format (How to Show output after the error occured)
                                                                         print(f"\t\t|{format("Student Information", "-^29")}|")
                                                                         print(f"  > Student {student_no}:-")
                                                                         print(f"  ☼ Roll Number{format(":", ">8")} {roll_number}")
                                                                         print(f"  ☼ Name{format(":", ">15")} {name}")
                                                                         print(f"  ☼ Class{format(":", ">14")} {class_}")
-                                                                        print(f"  ☼ Maths Marks{format(":", ">8")} {maths}")
-                                                                        print(f"  ☼ Science Marks{format(":", ">6")} {science}")
+                                                                        print(f"  ☼ Maths Score{format(":", ">8")} {maths}")
+                                                                        print(f"  ☼ Science Score{format(":", ">6")} {science}")
                                                                         continue
                                                                     
                                                                 else:
                                                                     print(f"\n\t\t|{format("Invalid Input", "-^20")}|")
-                                                                    print(f"   -→ [Enter English Marks in Digits]")
-                                                                    print(f"   -→ [Renter English Marks of \'Student {student_no}\'] again...\n")
+                                                                    print(f"   -→ [Enter English Score in Digits]")
+                                                                    print(f"   -→ [Renter English Score of \'Student {student_no}\'] again...\n")
                                                                     # Format (How to Show output after the error occured)
                                                                     print(f"\t\t|{format("Student Information", "-^29")}|")
                                                                     print(f"  > Student {student_no}:-")
                                                                     print(f"  ☼ Roll Number{format(":", ">8")} {roll_number}")
                                                                     print(f"  ☼ Name{format(":", ">15")} {name}")
                                                                     print(f"  ☼ Class{format(":", ">14")} {class_}")
-                                                                    print(f"  ☼ Maths Marks{format(":", ">8")} {maths}")
-                                                                    print(f"  ☼ Science Marks{format(":", ">6")} {science}")
+                                                                    print(f"  ☼ Maths Score{format(":", ">8")} {maths}")
+                                                                    print(f"  ☼ Science Score{format(":", ">6")} {science}")
                                                                     continue
 
                                                             break
 
                                                         else:
                                                             print(f"\n\t\t|{format("Invalid Input", "-^20")}|")
-                                                            print(f"   -→ [Enter Science Marks in between 0 to 100]")
-                                                            print(f"   -→ [Renter Science Marks of \'Student {student_no}\'] again...\n")
+                                                            print(f"   -→ [Enter Science Score in between 0 to 100]")
+                                                            print(f"   -→ [Renter Science Score of \'Student {student_no}\'] again...\n")
                                                             # Format (How to Show output after the error occured)
                                                             print(f"\t\t|{format("Student Information", "-^29")}|")
                                                             print(f"  > Student {student_no}:-")
                                                             print(f"  ☼ Roll Number{format(":", ">8")} {roll_number}")
                                                             print(f"  ☼ Name{format(":", ">15")} {name}")
                                                             print(f"  ☼ Class{format(":", ">14")} {class_}")
-                                                            print(f"  ☼ Maths Marks{format(":", ">8")} {maths}")
+                                                            print(f"  ☼ Maths Score{format(":", ">8")} {maths}")
                                                             continue
                                                     
                                                     else:
                                                         print(f"\n\t\t|{format("Invalid Input", "-^20")}|")
-                                                        print(f"   -→ [Enter Science Marks in Digits]")
-                                                        print(f"   -→ [Renter Science Marks of \'Student {student_no}\'] again...\n")
+                                                        print(f"   -→ [Enter Science Score in Digits]")
+                                                        print(f"   -→ [Renter Science Score of \'Student {student_no}\'] again...\n")
                                                         # Format (How to Show output after the error occured)
                                                         print(f"\t\t|{format("Student Information", "-^29")}|")
                                                         print(f"  > Student {student_no}:-")
                                                         print(f"  ☼ Roll Number{format(":", ">8")} {roll_number}")
                                                         print(f"  ☼ Name{format(":", ">15")} {name}")
                                                         print(f"  ☼ Class{format(":", ">14")} {class_}")
-                                                        print(f"  ☼ Maths Marks{format(":", ">8")} {maths}")
+                                                        print(f"  ☼ Maths Score{format(":", ">8")} {maths}")
                                                         continue
 
                                                 break
                                             
                                             else:
                                                 print(f"\n\t\t|{format("Invalid Input", "-^20")}|")
-                                                print(f"   -→ [Enter Maths Marks in between 0 to 100]")
-                                                print(f"   -→ [Renter Maths Marks of \'Student {student_no}\'] again...\n")
+                                                print(f"   -→ [Enter Maths Score in between 0 to 100]")
+                                                print(f"   -→ [Renter Maths Score of \'Student {student_no}\'] again...\n")
                                                 # Format (How to Show output after the error occured)
                                                 print(f"\t\t|{format("Student Information", "-^29")}|")
                                                 print(f"  > Student {student_no}:-")
@@ -134,8 +134,8 @@ while True:
 
                                         else:
                                             print(f"\n\t\t|{format("Invalid Input", "-^20")}|")
-                                            print(f"   -→ [Enter Maths Marks in Digits]")
-                                            print(f"   -→ [Renter Maths Marks of \'Student {student_no}\'] again...\n")
+                                            print(f"   -→ [Enter Maths Score in Digits]")
+                                            print(f"   -→ [Renter Maths Score of \'Student {student_no}\'] again...\n")
                                             # Format (How to Show output after the error occured)
                                             print(f"\t\t|{format("Student Information", "-^29")}|")
                                             print(f"  > Student {student_no}:-")
@@ -199,6 +199,42 @@ while True:
         print(f" -→ Type \'add\' or \'done\' anything else will not be accepted \n{a}\n ")
 
 
+
+'''0 Condition'''
 if len(lis_roll_nos) == 0:
     print(f"\t ○ No Roll Numbers were added")
     exit()
+
+import mymodule
+
+'''Converting Lists to Dictionary'''
+dictionary = {roll_number00:{'Name' : name00, 'Class' : class_int00, 'Maths Score' : maths_int00, 'Science Score' : science_int00, 'English Score' : english_int00} for roll_number00, name00, class_int00, maths_int00, science_int00, english_int00 in zip(lis_roll_nos, lis_names, lis_class, lis_maths_marks, lis_science_marks, lis_english_marks)}
+
+# Imports
+
+
+'''Showing all Entered Roll Numbers'''
+print(f"\n\n\n{a} \n{format("| Students Roll Number Information |", "^64")}")
+
+for i in lis_roll_nos:
+    print(f"\t       -> {i}")
+
+print(f"{a}\n\n\n")
+
+'''Fetching Roll Number'''
+# print(dictionary)
+
+while True:
+    print(f"{format("| Get Information |", "^64")} \n ○ Type Roll Number of Student to Get it's Information")
+    user_ask = input(f" ○ Enter Roll Number {format(": ", ">12")}")
+    if user_ask in lis_roll_nos:
+        print(f"{format("| Student Information |", "-^35")}\n\t○ Roll Number : {user_ask}")
+        
+        for keys, values in dictionary[user_ask].items():
+            print(f"\t• {keys} : {values}")
+        
+        break
+        
+    else:
+        print("Invalid Input")
+        
